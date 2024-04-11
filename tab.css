@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(72, 13, 80);
+}
+
+.tabuleiro{
+    width: 50%;
+    height: 80%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.coluna{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;  
+}
+
+.A{
+    background-color: #f0d9b5;
+}
+
+.B{
+    background-color: #b58863;
+}
+.letra-left{
+    width:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+    color: rgb(206, 11, 255);
+    font-size: large;
+}
+.letraa-left{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-end;
+    margin-left: 8px;
+    font-size: larger;
+}
+.numero-coluna{
+    width: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: start;
+}
+.numero-coluna-vazio{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    font-size: larger;
+
+}
+#peao{
+    transition: 200ms ease-in-out;
+}
+.assinatura{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    gap: 15px;
+    margin-top: 10px;
+    
+}
+#link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+#nome{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 25%;
+    color: white;
+    text-decoration: none;
+    border: 2px solid black ;
+    border-radius: 10px;
+}
